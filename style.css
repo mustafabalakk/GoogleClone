@@ -1,0 +1,157 @@
+* {
+  font-family: roboto;
+}
+a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.buttons-div {
+  margin-left: auto;
+  width: 290px;
+  height: 50px;
+  display: block;
+}
+
+.buttons-div-gmail {
+  height: 50px;
+  display: inline-block;
+}
+.gmailclass {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+.gmailclass:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.gorseller-div {
+  height: 50px;
+  display: inline-block;
+}
+.gorsellerclass {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+.gorsellerclass:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.uygulamalar-div {
+  vertical-align: middle;
+  text-align: center;
+  width: 70px;
+  display: inline-block;
+}
+.uygulamalarclass {
+  margin-top: auto;
+  height: 20px;
+}
+.uygulamalarclass:hover {
+  cursor: pointer;
+}
+
+.photo-div {
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+}
+
+.ppclass {
+  height: 30px;
+  border-radius: 50px;
+  display: inline-block;
+}
+.ppclass:hover {
+  cursor: pointer;
+}
+
+.googlelogo-div {
+  margin-top: 220px;
+}
+.Google-logo {
+  width: 300px;
+  display: block;
+
+  margin: auto;
+  margin-bottom: 20px;
+}
+.searchbar-div {
+  text-align: center;
+}
+
+.search-bar {
+  width: 650px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px;
+  box-shadow: 3px 3px 3px rgb(224, 224, 224);
+  text-align: center;
+  margin-top: 15px;
+  outline: none;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.buton-ara,
+.buton-kendimisanslihissediyorum {
+  height: 40px;
+  padding: 0 16px;
+  margin-left: 20px;
+  color: black;
+  border: 1px;
+  border-bottom: 1px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 440px;
+}
+
+.buton-kendimisanslihissediyorum:active,
+.buton-ara:active {
+  color: black;
+  border-style: solid;
+}
+
+.buton-kendimisanslihissediyorum:hover,
+.buton-ara:hover {
+  border-style: solid;
+  background-color: #f8f9fac5;
+  border-color: rgb(83, 83, 83);
+}
+
+.div-about {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(214, 214, 214);
+  text-align: left;
+  line-height: 50px;
+}
+.left-links {
+  position: absolute;
+  left: 15px;
+}
+.center-link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.right-links {
+  position: absolute;
+  right: 15px;
+}
